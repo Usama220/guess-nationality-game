@@ -70,3 +70,16 @@ font-weight:600;
    background-color:lightblue;
    padding: 5px;
  }
+
+ .animate{
+   position: relative;
+   animation: myfirst 3s ;
+   animation-direction: alternate;
+   // animation: initial;
+ }
+ @keyframes myfirst {
+  
+   0%  { left: 0px; top: 1px; }
+   100%  { left: 0px; top: 500px;}
+   
+ }
